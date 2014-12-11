@@ -1,0 +1,14 @@
+driver: mysql
+development:
+  user: root
+  password: ""
+  db: gorm
+production:
+  user: hoge
+  password: fuga
+  db: gorm
+test:
+  user: root
+  password: ""
+  db: gorm_test
+

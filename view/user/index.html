@@ -1,0 +1,7 @@
+<html>
+<p>user index</p>
+{{range .}}
+<a href="/user/edit/{{.Id}}">{{.Name}}</a><br/>
+{{end}}
+<a href="/user/new">new</a>
+</html>

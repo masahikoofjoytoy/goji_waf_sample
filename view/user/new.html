@@ -1,0 +1,11 @@
+<html>
+  <form method="post" action="/user/new" >
+    <label>
+      Name
+      <input type="text" name="Name" value="{{.User.Name}}"/>
+    </label>
+    <input type="submit" name="Submit" value="登録" /><br/>
+    {{.Mess}}
+  </form>
+  <a href="/user/index">back</a>
+</html>
